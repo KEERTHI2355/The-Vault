@@ -1,8 +1,7 @@
 # 🗝️ The Vault
 
-> A secure, zero-knowledge, one-time secret sharing application. Create self-destructing messages that can only be read once.
+### A secure, zero-knowledge, one-time secret sharing application. Create self-destructing messages that can only be read once.
 
-- By Keerthi
 
 ![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)
 ![FastAPI](https://img.shields.io/badge/FastAPI-0.110-green.svg)
@@ -187,7 +186,7 @@ The Vault implements a **zero-knowledge** security model. This means:
     ▼                               ▼                               ▼
 ```
 
-### User Journey
+### 🗺️ User Journey
 
 #### Creating a Secret
 
@@ -545,8 +544,16 @@ MIT License - See LICENSE file for details.
 
 ---
 
+## 👤 Author
+
+**K Keerthi**  
+Data Science Engineering Student  
+Aspiring Python Developer / Data Analyst
+
+---
+
 <p align="center">
-  Built with ❤️ for secure communication
+  🛠 Built by <a href="https://github.com/KEERTHI2355">@Keerthi2355</a> 
   <br>
   <a href="#-the-vault">Back to Top</a>
 </p>
