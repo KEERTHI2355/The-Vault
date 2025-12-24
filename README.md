@@ -4,11 +4,13 @@
 
 
 ![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)
-![FastAPI](https://img.shields.io/badge/FastAPI-0.110-green.svg)
+![SQL](https://img.shields.io/badge/SQL-Queries-blue?logo=postgresql)
 ![Streamlit](https://img.shields.io/badge/Streamlit-1.34-red.svg)
+![FastAPI](https://img.shields.io/badge/FastAPI-0.110-green.svg)
+![API](https://img.shields.io/badge/API-Backend-blue?logo=fastapi)
+![Web Development](https://img.shields.io/badge/Web%20Development-Frontend%2FBackend-blue?logo=google-chrome)
 ![License](https://img.shields.io/badge/License-MIT-yellow.svg)
 
----
 
 ## 📋 Table of Contents
 
@@ -24,7 +26,6 @@
 - [Security Considerations](#-security-considerations)
 - [Development](#-development)
 
----
 
 ## ✨ Features
 
@@ -39,7 +40,6 @@
 | 💾 **Dual Storage** | Redis (recommended) or SQLite fallback |
 | 🎨 **Modern UI** | Clean, responsive Streamlit interface |
 
----
 
 ## 🏗️ Architecture Overview
 
@@ -91,7 +91,6 @@
 | **Utils** | `utils.py` | Encryption, password hashing, storage abstraction |
 | **Config** | `config.py` | Centralized settings management |
 
----
 
 ## 🔒 Security Model
 
@@ -128,7 +127,6 @@ The Vault implements a **zero-knowledge** security model. This means:
 | **SHA-256** | Password hashing | 256-bit with random salt |
 | **UUID4** | Secret identification | 122 bits of randomness |
 
----
 
 ## 🔄 How It Works
 
@@ -255,7 +253,6 @@ The Vault implements a **zero-knowledge** security model. This means:
 └──────────────────────────────────────────────────────────────┘
 ```
 
----
 
 ## 🚀 Quick Start
 
@@ -309,7 +306,6 @@ streamlit run frontend.py
 | API Documentation | [http://localhost:8000/docs](http://localhost:8000/docs) |
 | Health Check | [http://localhost:8000/health](http://localhost:8000/health) |
 
----
 
 ## ⚙️ Configuration
 
@@ -327,7 +323,6 @@ Environment variables can be set in a `.env` file:
 | `RATE_LIMIT_ENABLED` | `true` | Enable/disable rate limiting |
 | `RATE_LIMIT_REQUESTS` | `30` | Requests per minute per IP |
 
----
 
 ## 📡 API Reference
 
@@ -419,7 +414,6 @@ Content-Type: application/json
 | `401` | Password required or incorrect |
 | `429` | Rate limit exceeded |
 
----
 
 ## 🧪 Testing
 
@@ -445,7 +439,6 @@ pytest tests/test_api.py::TestGenerateEndpoint -v
 - `test_utils.py` - 11 tests for encryption and password hashing
 - `test_api.py` - 15 tests for all API endpoints
 
----
 
 ## 📁 Project Structure
 
@@ -466,7 +459,6 @@ Vault/
     └── test_api.py      # Integration tests for API
 ```
 
----
 
 ## 🛡️ Security Considerations
 
@@ -497,7 +489,6 @@ Vault/
 4. **Monitor Rate Limits** - Watch for abuse patterns
 5. **Regular Backups** - For Redis/database (encrypted data only)
 
----
 
 ## 🔧 Development
 
@@ -525,13 +516,11 @@ flake8 .
 4. Write tests in `tests/`
 5. Update documentation
 
----
 
 ## 📄 License
 
 MIT License - See LICENSE file for details.
 
----
 
 ## 🤝 Contributing
 
@@ -542,7 +531,6 @@ MIT License - See LICENSE file for details.
 5. Push to branch (`git push origin feature/amazing`)
 6. Open a Pull Request
 
----
 
 ## 👤 Author
 
